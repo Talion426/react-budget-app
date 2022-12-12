@@ -16,3 +16,8 @@ export interface ICurrencyContext {
   currencies: ICurrencyOption[];
   setCurrency: (option: ICurrencyOption) => void;
 }
+
+export interface IBudgetContext {
+  budget: number;
+  setBudget: (value: number) => void;
+}
