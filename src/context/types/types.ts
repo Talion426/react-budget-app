@@ -10,3 +10,9 @@ export interface IExpenseContext {
   setNewExpense: (expense: IExpense) => void;
   deleteExpense: (id: string) => void;
 }
+
+export interface ICurrencyContext {
+  currentCurrency: ICurrencyOption;
+  currencies: ICurrencyOption[];
+  setCurrency: (option: ICurrencyOption) => void;
+}
