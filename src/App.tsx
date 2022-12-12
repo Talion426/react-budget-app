@@ -1,4 +1,10 @@
 //import { Budget, Expenses, Form } from "./components";
+import { Wrapper } from "./wrapper";
+
 export const App = () => {
-  return <div>App</div>;
+  return (
+    <Wrapper>
+      <div>App</div>
+    </Wrapper>
+  );
 };
